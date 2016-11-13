@@ -7,7 +7,6 @@ body {
   color: #eaeaea;
   font-size: 16px;
   line-height: 1.5;
-  text-align: justify;
 }
 
 body.sans {
@@ -15,33 +14,33 @@ body.sans {
 }
 
 body.serif {
-  font-family: "Bitstream Vera Serif", "Lucida Serif", serif;
+  font-family: "Liberation Serif", "Bitstream Vera Serif", "Lucida Serif", serif;
 }
 
 /* NAVIGATION BARS */
 
 #top {
   width: 90%;
-  max-width: 960px;
+  max-width: 53rem;
   margin: auto;
   text-align: right;
 }
 
 #top ul {
-  font-family: "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
   padding: 0px;
   font-weight: bold;
 }
 
 #top ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 1rem;
 }
 
 #side {
   float: left;
   width: 20%;
-  padding-left: 10px;
+  padding-left: 0.5rem;
 }
 
 /* HEADER */
@@ -58,64 +57,40 @@ header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
-  font-family: "Bitstream Vera Sans", "Lucida Console", monospace;
+  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
   color: yellowgreen;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 300;
   color: #666;
 }
 
 #header-insides {
   width: 90%;
-  max-width: 600px;
+  max-width: 33rem;
   margin: 0 auto;
-}
-
-#downloads {
-  display: block;
-  margin: 0 0 20px 0;
-}
-
-#downloads .btn {
-  display: inline-block;
-  text-align: center;
-  margin: 0;
-}
-
-/* BUTTONS */
-
-.btn {
-  padding: 8px 18px;
-  border-radius: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
-  border-top: 2px solid rgba(0, 0, 0, 1);
-  color: rgba(255, 255, 255, 0.8);
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 /* MAIN CONTENT */
 
+main {
+  text-align: justify;
+}
+
 #document {
   width: 90%;
-  max-width: 960px;
+  max-width: 53rem;
   margin: 0 auto;
 }
 
-@media screen and ( max-width: 1600px ){
+@media screen and ( max-width: 66.25rem ) {
   #document {
     width: 60%;
     margin: 0 20% 0 20%;
@@ -150,7 +125,7 @@ header h2 {
 #sommaire {
   width: 90%;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
   padding-left: 2%;
   padding-right: 2%;
   border-bottom: 1px dashed yellowgreen;
@@ -165,9 +140,10 @@ header h2 {
 /* TEXT HEADERS */
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0 0 2rem;
   font-weight: normal;
-  font-family: "Bitstream Vera Sans", "Lucida Sans", sans-serif;  color: yellowgreen;
+  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  color: yellowgreen;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -175,15 +151,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.67rem;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.33rem;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 h4 {
@@ -204,6 +180,10 @@ h6 {
 }
 
 /* BLOCK ELEMENTS */
+
+p {
+  text-indent: 3rem;
+}
 
 blockquote {
   color: #aaa;
@@ -260,7 +240,7 @@ a:hover {
 }
 
 code {
-  font-family: "Bitstream Vera Sans Mono", "Lucida Console", monospace;
+  font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
   line-height: 1.5;
   color: yellow;
 }
@@ -277,7 +257,7 @@ ul li {
 
 body :not(#top) ul li:before {
   content: ">>";
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
   font-size: 13px;
   color: yellowgreen;
   margin-left: -37px;
