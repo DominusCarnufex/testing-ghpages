@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<nav id="side">
+
+  Auteur:<br/>
+  Date de publication:<br/>
+  Licence:<br/>
+      {% if page.sommaire %}
+        {% include {{ page.sommaire }} %}
+      {% endif %}
+  Téléchargement:<br/>
+
+</nav>
+
+<div id="document">
+  <!--<div id="toggleserif">
+    <span class="btn" id="btnserif" onclick="toggle_serif()">Police à empattements</span>
+  </div>-->
+      
+  {{ content }}
+      
+</div><!-- End of “document” div. -->
