@@ -10,37 +10,37 @@ body {
 }
 
 body.sans {
-  font-family: "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
 }
 
 body.serif {
-  font-family: "Liberation Serif", "Bitstream Vera Serif", "Lucida Serif", serif;
+  font-family: "DejaVu Serif", "Bitstream Vera Serif", "Lucida Serif", serif;
 }
 
 /* NAVIGATION BARS */
 
 #top {
   width: 90%;
-  max-width: 53rem;
+  max-width: 960px;
   margin: auto;
   text-align: right;
 }
 
 #top ul {
-  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
   padding: 0px;
   font-weight: bold;
 }
 
 #top ul li {
   display: inline;
-  margin-right: 1rem;
+  margin-right: 20px;
 }
 
 #side {
   float: left;
   width: 20%;
-  padding-left: 0.5rem;
+  padding-left: 10px;
 }
 
 /* HEADER */
@@ -57,7 +57,7 @@ header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
-  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  /*font-family: "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;*/
   color: yellowgreen;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -67,14 +67,14 @@ header h1 {
 }
 
 header h2 {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 300;
   color: #666;
 }
 
 #header-insides {
   width: 90%;
-  max-width: 33rem;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -86,11 +86,11 @@ main {
 
 #document {
   width: 90%;
-  max-width: 53rem;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-@media screen and ( max-width: 66.25rem ) {
+@media screen and ( max-width: 1600px ) {
   #document {
     width: 60%;
     margin: 0 20% 0 20%;
@@ -125,7 +125,7 @@ main {
 #sommaire {
   width: 90%;
   margin: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 30px;
   padding-left: 2%;
   padding-right: 2%;
   border-bottom: 1px dashed yellowgreen;
@@ -140,9 +140,9 @@ main {
 /* TEXT HEADERS */
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 2rem;
+  margin: 0 0 40px;
   font-weight: normal;
-  font-family: "Liberation Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", sans-serif;
   color: yellowgreen;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -151,15 +151,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.67rem;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 1.33rem;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 h4 {
@@ -182,7 +182,7 @@ h6 {
 /* BLOCK ELEMENTS */
 
 p {
-  text-indent: 3rem;
+  text-indent: 50px;
 }
 
 blockquote {
