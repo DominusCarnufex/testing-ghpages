@@ -4,7 +4,7 @@ layout: default
 
 <nav id="side">
 
-{% include metadonnees-toki-pona.html %}
+{% include {{ page.slug | prepend: 'metadonnees-' | append: '.html' }} %}
 
 </nav>
 
