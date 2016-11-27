@@ -292,6 +292,11 @@ dt {
 ul li {
   line-height: 1.4;
   list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+#sommaire ul li {
+ margin-bottom: 0.5rem; 
 }
 
 body :not(#top) ul li:before {
@@ -305,6 +310,10 @@ body :not(#top) ul li:before {
 }
 
 /* CUSTOM BLOCKS */
+
+aside p {
+  text-indent: unset;
+}
 
 aside.error, aside.important, aside.note, aside.question {
   margin: 25px 0;
