@@ -158,6 +158,12 @@ article {
   }
 }
 
+article#accueil {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .datelist {
   margin-left: 30px;
   font-size: 14px;
@@ -196,6 +202,53 @@ article #sommaire {
 article #sommaire .first {
   color: yellowgreen;
   font-weight: bold;
+}
+
+/* PAGE D’ACCUEIL */
+
+.article-accueil {
+  border: 2px dotted #666;
+  background-color: #111;
+  line-height: 1;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.article-accueil img {
+    height: 96px;
+}
+
+.article-accueil div {
+  margin-top: -96px;
+  margin-left: 96px;
+  padding: 10px;
+  line-height: 1.5;
+  height: 76px;
+}
+
+.article-accueil p {
+  margin: unset;
+  text-indent: unset;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 20px;
+}
+
+.article-accueil .titre {
+  font-size: 1.4rem;
+  color: yellowgreen;
+}
+
+.article-accueil .sous-titre {
+  padding-left: 2em;
+  color: grey;
+  padding-bottom: 20px; 
+}
+
+.article-accueil .metadonnes {
+  font-size: 80%;
+  color: lightgrey;
 }
 
 /* TEXT HEADERS */
