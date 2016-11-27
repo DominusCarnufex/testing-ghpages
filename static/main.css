@@ -59,12 +59,22 @@ body.serif {
 }
 
 @media screen and ( max-width: 700px ) {
-  #side li {
-    margin-left: -30px;
+  #side {
+    display: none;
   }
-  
-  #side li::before {
-    margin-left: unset;
+}
+
+#bottom {
+  display: none;
+  width: 90%;
+  margin: 15px auto 0 auto;
+  border-top: 2px dotted yellowgreen;
+  text-align: left;
+}
+
+@media screen and ( max-width: 700px ) {
+  #bottom {
+    display: block;
   }
 }
 
@@ -133,7 +143,14 @@ article {
 @media screen and ( max-width: 1600px ) {
   article {
     width: 75%;
-    margin: 0 5% 0 20%;
+  }
+}
+
+@media screen and ( max-width: 700px ) {
+  article {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
