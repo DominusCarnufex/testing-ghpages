@@ -1,2 +1,6 @@
 name: testing-ghpages
 baseurl: "https://dominuscarnufex.github.io/testing-ghpages"
+
+collections:
+  articles:
+    output: true
