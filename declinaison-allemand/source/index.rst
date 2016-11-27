@@ -148,4 +148,6 @@ Corrigé
 
     *Ich entschied mich an meine Diät zu halten, als der Spiegel mir das Bild eines* ***dicken fetten*** *Wales zurückwarf.*
 
+----------
+
 .. [#] Pour ceux qui ne connaîtraient pas le terme technique, une désinence est une terminaison de mot ayant une fonction grammaticale forte. On l’oppose en particulier à un suffixe qui a plutôt une fonction sémantique, et à une coda, qui est un terme de phonétique.
