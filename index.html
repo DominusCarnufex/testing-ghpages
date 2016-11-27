@@ -6,7 +6,7 @@ navtitle:
 ---
 
 <article id="accueil">
-{% for article in site.articles %}
+{% for article in site.articles reversed %}
   <section class="article-accueil">
     <a href="{{ article.baseurl }}">
       <img src="{{ article.baseurl }}/images/logo.png">
