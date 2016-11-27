@@ -39,7 +39,7 @@ body.serif {
 
 #side {
   float: left;
-  width: 20%;
+  width: 18%;
   padding-left: 10px;
 }
 
@@ -72,6 +72,13 @@ header h2 {
   color: #666;
 }
 
+header #auteur {
+  margin-top: -15px;
+  margin-left: -10%;
+  color: gray;
+  font-size: 80%;
+}
+
 #header-insides {
   width: 90%;
   max-width: 600px;
@@ -92,8 +99,8 @@ main {
 
 @media screen and ( max-width: 1600px ) {
   #document {
-    width: 60%;
-    margin: 0 20% 0 20%;
+    width: 75%;
+    margin: 0 5% 0 20%;
   }
 }
 
