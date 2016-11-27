@@ -38,7 +38,7 @@ body.serif {
 }
 
 #side {
-  float: left;
+  position: fixed;
   width: 18%;
   padding-left: 10px;
 }
@@ -129,7 +129,7 @@ main {
   font-size: 14px;
 }
 
-#sommaire {
+main #sommaire {
   width: 90%;
   margin: auto;
   margin-bottom: 30px;
@@ -139,7 +139,7 @@ main {
   border-top: 1px dashed yellowgreen;
 }
 
-#sommaire .first {
+main #sommaire .first {
   color: yellowgreen;
   font-weight: bold;
 }
