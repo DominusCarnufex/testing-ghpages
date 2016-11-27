@@ -23,7 +23,7 @@ Lexique
 
 La grande fierté du toki pona, c’est de n’avoir que 120 mots et pas un de plus. Ce n’est pas tout à fait vrai. Il existe en effet cent vingt mots de base qui constituent l’ensemble du vocabulaire ordinaire de la langue, mais aucun d’entre eux ne permet d’exprimer un nom propre.
 
-’est pourquoi le toki pona utilise un système « d’adjectifs propres » pour suppléer à cette nécessaire limitation : un nom commun appartenant à la liste des 120 se voit apposer un adjectif qui porte le sens d’identification. Par exemple, *toki* signifie généralement « langage » ; on traduira « anglais » par *toki Inli*, « italien » par *toki Italija*, « espagnol » par *toki Epanja*, etc.
+C’est pourquoi le toki pona utilise un système « d’adjectifs propres » pour suppléer à cette nécessaire limitation : un nom commun appartenant à la liste des 120 se voit apposer un adjectif qui porte le sens d’identification. Par exemple, *toki* signifie généralement « langage » ; on traduira « anglais » par *toki Inli*, « italien » par *toki Italija*, « espagnol » par *toki Epanja*, etc.
 
 L’idée générale est de plier le nom propre à la phonétique du toki pona, mais cela donne souvent des résultats peu intuitifs : « France » se dit *Kanse*, « Allemagne » se dit *Tosi* et « Hongrie » se dit *Mosijo*. Par la même occasion, vous remarquerez une particularité du toki pona lorsqu’il est écrit en alphabet latin [#]_ : tous les mots commencent par une minuscule, même en début de phrase, à l’exception justement des adjectifs propres, que l’on distingue à l’aide de la majuscule.
 
