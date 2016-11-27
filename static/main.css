@@ -41,7 +41,7 @@ body.serif {
   position: -webkit-sticky;
   position: sticky;
   top: 5%;
-  width: 18%;
+  width: 20%;
   padding-left: 10px;
   display: inline-block;
   vertical-align: top;
@@ -68,7 +68,7 @@ body.serif {
   display: none;
   width: 90%;
   margin: 15px auto 0 auto;
-  border-top: 2px dotted yellowgreen;
+  border-top: 2px dashed yellowgreen;
   text-align: left;
 }
 
@@ -76,6 +76,10 @@ body.serif {
   #bottom {
     display: block;
   }
+}
+
+#titre-sommaire, #titre-telechargements {
+  color: yellowgreen;
 }
 
 /* HEADER */
