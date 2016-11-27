@@ -295,7 +295,11 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
-#sommaire ul li {
+#sommaire li {
+ margin-bottom: unset; 
+}
+
+#telechargements li {
  margin-bottom: unset; 
 }
 
