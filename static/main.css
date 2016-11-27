@@ -85,6 +85,13 @@ header #auteur {
   margin: 0 auto;
 }
 
+@media screen and ( max-width: 720px ) {
+  #header-insides {
+    width: 90%;
+    margin: 0 auto 0 60px;
+  }
+}
+
 /* MAIN CONTENT */
 
 main {
