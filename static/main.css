@@ -38,10 +38,24 @@ body.serif {
 }
 
 #side {
+  position: -webkit-sticky;
   position: sticky;
   top: 10%;
   width: 18%;
   padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+@media screen and ( max-width: 1050px ) {
+  #side {
+    font-size: 80%;
+  }
+  
+  #side p {
+    text-indent: unset;
+  }
 }
 
 /* HEADER */
