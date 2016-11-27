@@ -214,6 +214,15 @@ article #sommaire .first {
   height: 100px;
 }
 
+.article-accueil a {
+  color: unset;
+  text-shadow: unset;
+}
+
+.article-accueil a:hover {
+  text-decoration: none;
+}
+
 .article-accueil img {
     height: 96px;
 }
