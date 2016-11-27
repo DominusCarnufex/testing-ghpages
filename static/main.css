@@ -88,8 +88,8 @@ header #auteur {
 
 @media screen and ( max-width: 860px ) {
   #header-insides {
-    width: 90%;
-    margin: 0 auto 0 15%;
+    width: 80%;
+    margin: 0 5% 0 15%;
   }
 }
 
