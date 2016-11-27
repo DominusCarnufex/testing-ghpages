@@ -91,14 +91,14 @@ main {
   text-align: justify;
 }
 
-#document {
+article {
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
 
 @media screen and ( max-width: 1600px ) {
-  #document {
+  article {
     width: 75%;
     margin: 0 5% 0 20%;
   }
@@ -129,7 +129,7 @@ main {
   font-size: 14px;
 }
 
-main #sommaire {
+article #sommaire {
   width: 90%;
   margin: auto;
   margin-bottom: 30px;
@@ -139,7 +139,7 @@ main #sommaire {
   border-top: 1px dashed yellowgreen;
 }
 
-main #sommaire .first {
+article #sommaire .first {
   color: yellowgreen;
   font-weight: bold;
 }
