@@ -306,29 +306,29 @@ body :not(#top) ul li:before {
 
 /* CUSTOM BLOCKS */
 
-div.error, .important, .note, .question {
+aside.error, aside.important, aside.note, aside.question {
   margin: 25px 0;
   padding: 7px 15px 7px 45px;
   position: relative;
 }
 
-div.error {
+aside.error {
   background: #800000;
 }
 
-.important {
+aside.important {
   background: #661900;
 }
 
-.note {
+aside.note {
   background: #1c3458;
 }
 
-.question {
+aside.question {
   background: #3d305c;
 }
 
-div.error:before, .important:before, .note:before, .question:before {
+aside.error:before, aside.important:before, aside.note:before, aside.question:before {
   content: " ";
   display: block;
   position: absolute;
@@ -340,19 +340,19 @@ div.error:before, .important:before, .note:before, .question:before {
   background-repeat: no-repeat;
 }
 
-div.error:before {
+aside.error:before {
   background-image: url("/rust-libevdev/static/error.png");
 }
 
-.important:before {
+aside.important:before {
   background-image: url("/rust-libevdev/static/important.png");
 }
 
-.note:before {
+aside.note:before {
   background-image: url("/rust-libevdev/static/note.png");
 }
 
-.question:before {
+aside.question:before {
   background-image: url("/rust-libevdev/static/question.png");
 }
 
