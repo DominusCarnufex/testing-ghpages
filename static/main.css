@@ -38,7 +38,8 @@ body.serif {
 }
 
 #side {
-  position: fixed;
+  position: sticky;
+  top: 10%;
   width: 18%;
   padding-left: 10px;
 }
@@ -85,10 +86,10 @@ header #auteur {
   margin: 0 auto;
 }
 
-@media screen and ( max-width: 720px ) {
+@media screen and ( max-width: 860px ) {
   #header-insides {
     width: 90%;
-    margin: 0 auto 0 60px;
+    margin: 0 auto 0 15%;
   }
 }
 
