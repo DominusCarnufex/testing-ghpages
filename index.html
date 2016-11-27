@@ -5,4 +5,13 @@ subtitle:
 navtitle: 
 ---
 
-Test
+{% for article in site.articles %}
+  <section class="article-accueil">
+    <img src="{{ article.baseurl }}/images/logo.png">
+    <div>
+      <p class="titre">{{ article.title }}</p>
+      <p class="sous-titre">{{ article.subtitle }}</p>
+      <p class="metadonnees">Publié par {{ article.auteur }} le {{ article.pubdate }}</p>
+    </div>
+  </section>
+{% endfor %}
