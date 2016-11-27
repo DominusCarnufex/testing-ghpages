@@ -269,7 +269,7 @@ figure.align-center {
 }
 
 figure img {
-    max-width: 960px;
+    max-width: 100%;
 }
 
 blockquote {
