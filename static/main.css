@@ -168,7 +168,7 @@ h1.page-de-sommaire {
     border-bottom: 2px dotted;
 }
 
-h1.page-de-sommaire {
+h1.page-de-sommaire a {
     color: inherit;
     text-shadow: unset;
 }
