@@ -35,11 +35,14 @@ Dans ce cours, je vais vous parler du toki pona, une langue construite minimalis
     **Démarche**\ |br|
     Le cours n’est pas organisé sous forme d’une suite de leçons progressives, mais traite les aspects du langage de manière thématique.
 
+.. class:: page-de-sommaire
 
 `Où l'on parle de langues construites, de langues auxiliaires et de toki pona`__
 ================================================================================
 
 .. __: chapitre-1.html
+
+.. class:: page-de-sommaire
 
 `Le toki pona dans une coquille de noix`__
 ==========================================
@@ -53,6 +56,8 @@ Dans ce cours, je vais vous parler du toki pona, une langue construite minimalis
 .. __: chapitre-2.html#comment-on-obtient-la-simplicite
 .. __: chapitre-2.html#comment-on-obtient-la-complexite
 .. __: chapitre-2.html#la-grammaire-en-trois-mots
+
+.. class:: page-de-sommaire
 
 `Vocabulaire`__
 ===============
@@ -84,6 +89,8 @@ Dans ce cours, je vais vous parler du toki pona, une langue construite minimalis
 .. __: chapitre-3.html#modaux
 .. __: chapitre-3.html#divers
 .. __: chapitre-3.html#prepositions
+
+.. class:: page-de-sommaire
 
 `Le toki pona : une réussite ?`__
 =================================
