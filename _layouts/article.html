@@ -4,7 +4,9 @@ layout: default
 
 <nav id="side">
 
-{% include {{ page.slug }} %}
+{% if page.slug %}
+  {% include {{ page.slug | prepend: 'metadonnees-' | append: '.html' }} %}
+{% endif %}
 
 </nav>
 
@@ -19,6 +21,8 @@ layout: default
 
 <nav id="bottom">
 
-{% include metadonnees-toki-pona.html %}
+{% if page.slug %}
+  {% include {{ page.slug | prepend: 'metadonnees-' | append: '.html' }} %}
+{% endif %}
 
 </nav>
