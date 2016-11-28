@@ -389,6 +389,11 @@ td {
   padding: 5px 5px;
 }
 
+.center {
+  text-align: center;
+  text-indent: 0px;
+}
+
 /* INLINE ELEMENTS */
 
 a {
