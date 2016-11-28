@@ -54,7 +54,7 @@ body.serif {
   }
   
   #side p {
-    text-indent: unset;
+    text-indent: 0px;
   }
 }
 
@@ -215,8 +215,8 @@ article #sommaire .first {
 }
 
 .article-accueil a {
-  color: unset;
-  text-shadow: unset;
+  color: none;
+  text-shadow: none;
 }
 
 .article-accueil a:hover {
@@ -236,8 +236,8 @@ article #sommaire .first {
 }
 
 .article-accueil p {
-  margin: unset;
-  text-indent: unset;
+  margin: 0px;
+  text-indent: 0px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -286,7 +286,7 @@ h1.page-de-sommaire {
 
 h1.page-de-sommaire a {
     color: inherit;
-    text-shadow: unset;
+    text-shadow: none;
 }
 
 h2 {
@@ -341,7 +341,7 @@ blockquote {
 }
 
 blockquote p {
-  text-indent: unset;
+  text-indent: 0px;
 }
 
 hr {
@@ -419,11 +419,11 @@ ul li {
 }
 
 #sommaire li {
- margin-bottom: unset; 
+ margin-bottom: 0px; 
 }
 
 #telechargements li {
- margin-bottom: unset; 
+ margin-bottom: 0px; 
 }
 
 body :not(#top) ul li:before {
@@ -439,7 +439,7 @@ body :not(#top) ul li:before {
 /* CUSTOM BLOCKS */
 
 aside p {
-  text-indent: unset;
+  text-indent: 0px;
 }
 
 aside.error, aside.important, aside.note, aside.question {
