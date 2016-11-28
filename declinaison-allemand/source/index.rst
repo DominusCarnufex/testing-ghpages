@@ -150,4 +150,8 @@ Corrigé
 
 ----------
 
+Voilà, à présent, vous ne devriez plus avoir de problème à décliner vos adjectifs allemands. Cependant, même si la règle est simple, ce n'est qu'à l'usage qu'elle finira par vous devenir naturelle : alors usez et abusez des adjectifs dans vos phrases en allemand, jusqu'à ce que vous perceviez à l'oreille qu'une forme est fautive. Comme on dit outre-Rhin : *Übung macht den Meister* !
+
+----------
+
 .. [#] Pour ceux qui ne connaîtraient pas le terme technique, une désinence est une terminaison de mot ayant une fonction grammaticale forte. On l’oppose en particulier à un suffixe qui a plutôt une fonction sémantique, et à une coda, qui est un terme de phonétique.
